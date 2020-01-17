@@ -1,0 +1,62 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  flutter_suncalc: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/alarm_light.png
+    - assets/alarm_dark.png
+    - assets/cloudy_light.png
+    - assets/cloudy_dark.png
+    - assets/foggy_light.png
+    - assets/foggy_dark.png
+    - assets/moon_light.png
+    - assets/moon_dark.png
+    - assets/rainy_light.png
+    - assets/rainy_dark.png
+    - assets/snowy_light.png
+    - assets/snowy_dark.png
+    - assets/sun_light.png
+    - assets/sun_dark.png
+    - assets/thunderstorm_light.png
+    - assets/thunderstorm_dark.png
+    - assets/windy_light.png
+    - assets/windy_dark.png
+    - assets/back_light.png
+    - assets/back_dark.png
+    - assets/temp_light.png
+    - assets/temp_dark.png
+    - assets/location_light.png
+    - assets/location_dark.png
+    - assets/block_1d.png
+    - assets/block_1l.png
+    - assets/block_2d.png
+    - assets/block_2l.png
+    - assets/block_3d.png
+    - assets/block_3l.png
+    - assets/block_4d.png
+    - assets/block_4l.png
+    - assets/block_blank.png
+  fonts:
+    - family: 3Dumb
+      fonts:
+          - asset: third_party/3Dumb.ttf
+    - family: 2Dumb
+      fonts:
+          - asset: third_party/2Dumb.ttf
